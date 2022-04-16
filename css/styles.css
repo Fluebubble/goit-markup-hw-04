@@ -156,9 +156,11 @@ body {
   letter-spacing: calc(1em / 33);
 }
 .benefits-style {
-  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
   background-color: #F5F4FA;
-  padding: 25px 100px;
   border-radius: 4px;
 }
 .benefits-description {
