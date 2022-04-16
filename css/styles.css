@@ -179,6 +179,7 @@ body {
   max-width: 270px;
 }
 .benefits-title {
+  margin-top: 30px;
   color: var(--link-color);
   text-transform: uppercase;
   font-size: 14px;
