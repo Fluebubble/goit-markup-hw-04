@@ -251,6 +251,9 @@ body {
   /* border: 0px solid; */
   border-radius: 50px;
 }
+.employee-socials-style:focus-within {
+  background-color: #2196f3;
+}
 .employee-socials-link {
   display: block;
   width: inherit;
@@ -315,6 +318,9 @@ body {
   height: 44px;
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-socials-item:focus-within {
+  background-color: #2196F3;
 }
 .footer-socials-item:hover {
   background-color: #2196F3;
@@ -403,6 +409,11 @@ body {
               0px 4px 4px rgba(0, 0, 0, 0.06),
               1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.portfolio-list-item:focus-within {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-list-item:not(:nth-child(3n+3)) {
   margin-right: 30px;
 }
@@ -419,6 +430,9 @@ body {
   border: #AFB1B8 solid 1px;
   margin-top: 50px;
   border-radius: 4px;
+}
+.clients-list-item:focus-within {
+  border-color: #2196f3;
 }
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
